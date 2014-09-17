@@ -1,0 +1,4 @@
+exampels.CitiesPanel
+exampels.ColorsPanel
+exampels.Jtabbedpane
+exampels.FlavoursPanel

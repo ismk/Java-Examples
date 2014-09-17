@@ -1,0 +1,19 @@
+public class FrameExp1 extends JFrame {
+
+    public FrameExp1() throws HeadlessException
+    {
+          JButton btn=new JButton("Button1");
+           setLayout(null);
+           btn.setBounds(10, 20, 40, 50);
+           add(btn);
+          
+           setSize(300,400);
+           
+           setVisible(true);
+    }
+    
+ 
+    public static void main(String[] args) {
+     new FrameExp1();
+    }
+    

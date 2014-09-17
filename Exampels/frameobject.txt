@@ -1,0 +1,12 @@
+ */
+public class Frame2 {
+    
+    public static void main(String[] args) {
+        JFrame obj=new JFrame();
+        Button btn=new Button("Hello");
+        obj.add(btn);
+        obj.setSize(200,200);
+        obj.setVisible(true);
+    }
+    
+}
